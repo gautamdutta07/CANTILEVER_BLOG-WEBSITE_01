@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 99%;
+    --background: 220 70% 95%;
     --foreground: 240 10% 9%;
 
     --card: 0 0% 100%;
@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 9%;
 
-    --primary: 240 9% 10%;
+    --primary: 260 70% 45%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 5% 96%;
+    --secondary: 340 60% 88%;
     --secondary-foreground: 240 9% 10%;
 
     --muted: 240 5% 96%;
     --muted-foreground: 240 4% 46%;
 
-    --accent: 47 96% 88%;
+    --accent: 180 70% 75%;
     --accent-foreground: 240 9% 10%;
 
     --destructive: 0 84% 60%;
@@ -34,19 +34,19 @@ All colors MUST be HSL.
 
     --border: 240 6% 90%;
     --input: 240 6% 90%;
-    --ring: 240 9% 10%;
+    --ring: 260 70% 45%;
 
     --radius: 0.75rem;
 
     /* Blog specific tokens */
-    --blog-hero: 240 5% 98%;
+    --blog-hero: 300 60% 95%;
     --blog-text: 240 5% 25%;
     --blog-light: 240 4% 60%;
     --blog-border: 240 5% 90%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(var(--blog-hero)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(240 5% 99%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 70% 95%), hsl(300 60% 95%), hsl(180 70% 85%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(220 80% 98%));
     
     /* Shadows */
     --shadow-card: 0 4px 6px -1px hsl(240 5% 85% / 0.1), 0 2px 4px -1px hsl(240 5% 85% / 0.06);
